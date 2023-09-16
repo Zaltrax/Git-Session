@@ -1,0 +1,12 @@
+mkdir GitSession
+cd GitSession/
+git init
+git status
+git add main.txt
+git status
+git commit -m " main file "
+git log
+git -v
+git remote add origin https://github.com/Zaltrax/Git-Session.git
+git remote -v
+git push origin master
